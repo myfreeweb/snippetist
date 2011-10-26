@@ -2,7 +2,7 @@
 from distutils.core import setup
 
 setup(name='snippetist',
-      version='0.1.0',
+      version='1.0.0',
       description='Cross-editor snippet compiler',
 #      long_description="""""",
       license='Apache License 2.0',
