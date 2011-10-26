@@ -11,7 +11,7 @@ if __name__ == '__main__':
       if not os.path.exists(dirname):
         os.makedirs(dirname)
       for fname, cont in conts.iteritems():
-        open(dirname + '/' + fname, 'w').write(cont)
+        open(os.path.join(dirname, fname), 'w').write(cont)
     print 'Done!'
   else:
     print 'Usage: snippetist <filename>'
