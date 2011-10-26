@@ -1,15 +1,16 @@
 author: floatboth
-emacs_dir: emacs-coffee
-tm_scope: source.coffee
+tm_scope: source.python
+emacs_mode: python-mode
 ---
 unload
-  wtf();
-    lolwut;
+  def unload(${1:name}):
+    lolwut()
 
-dick
-  def a:
+test
+  def a():
     pass
 
 load
   class Ass(${1:wtf}):
-    hello
+    def __init__(self):
+      pass

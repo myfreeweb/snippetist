@@ -11,6 +11,7 @@ setup(name='snippetist',
       url='https://github.com/myfreeweb/snippetist',
       requires=['PyYAML', 'pystache'],
       packages=['snippetist'],
+      package_data={'snippetist': ['*.mustache']},
       scripts=['scripts/snippetist'],
       keywords=['text', 'snippet', 'textmate', 'sublime text 2', 'emacs', 'vim'],
       classifiers = [
@@ -19,5 +20,4 @@ setup(name='snippetist',
         'Programming Language :: Python',
         'Topic :: Utilities',
       ],
-      package_data={},
 )
