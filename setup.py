@@ -14,7 +14,7 @@ setup(name='snippetist',
       package_data={'snippetist': ['*.mustache']},
       scripts=['scripts/snippetist'],
       keywords=['text', 'snippet', 'textmate', 'sublime text 2', 'emacs', 'vim'],
-      classifiers = [
+      classifiers=[
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
